@@ -7,9 +7,11 @@
 
 using namespace kback;
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
   int numThreads = 3;
-  if (argc > 1) {
+  if (argc > 1)
+  {
     numThreads = atoi(argv[1]);
   }
   EventLoop loop;

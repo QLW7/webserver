@@ -7,7 +7,7 @@
             "args": [
                 "-I .",
                 "-O2",
-                // "-g",
+                "-g",
                 "-std=c++11",
                 // "-Wall",
                 // "-D USE_STD_COUT",
